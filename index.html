@@ -1,58 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multikart</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- section 1 code starts -->
     <nav>
-        <h1>Your cart will be expired in10:13 minutes!</h1>
-        <button>Check Out</button>
+        <h1 class="cart__heading">Your cart will be expired in</h1>
+        <h1 class="countdown__heading">countdown done</h1>
+        <h1 class="cart__heading">minutes!</h1>
+        <a href="#"><button class="checkout__button">Check Out</button></a>
     </nav>
-    <header>
-        <div>
-            <h1>IMAGE</h1>
-            <h1>PRODUCT NAME</h1>
-            <h1>PRICE</h1>
-            <h1>QUANTITY</h1>
-            <h1>ACTION</h1>
-            <h1>TOTAL</h1>
-        </div>
-        <div>
-            <a href="#"><img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/2.jpg"></a>
-            <a href="#">Cotton Shirt</a>
-            <h1>$63.00</h1>
-
-
-            <h1>$4539.00</h1>
-        </div>
-        <div>
-            <a href="#"><img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/35.jpg"></a>
-            <a href="#">Cotton Shirt</a>
-            <h1>$63.00</h1>
-
-
-            <h1>$4539.00</h1>
-        </div>
-        <div>
-            <a href="#"><img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/33.jpg"></a>
-            <a href="#">Cotton Shirt</a>
-            <h1>$63.00</h1>
-
-
-            <h1>$4539.00</h1>
-        </div>
-        <div>
-            <h2>Total Price :</h2>
-            <h1>$6935.00</h1>
-        </div>
-        <div>
-            <a href="#"><button>CONTINUE SHOPPING</button></a>
-            <a href=""><button>CHECK OUT</button></a>
-        </div>
-    </header>
+    <thead>
+        <tr>
+            <div class="header">
+                <th>
+                    <h1 class="header__heading">IMAGE</h1>
+                </th>
+                <th>
+                    <h1 class="header__heading-two">PRODUCT NAME</h1>
+                </th>
+                <th>
+                    <h1 class="header__heading-two">PRICE</h1>
+                </th>
+                <th>
+                    <h1 class="header__heading-two">QUANTITY</h1>
+                </th>
+                <th>
+                    <h1 class="header__heading-two">ACTION</h1>
+                </th>
+                <th>
+                    <h1 class="header__heading">TOTAL</h1>
+                </th>
+            </div>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <div class="girl__div">
+                <td><a href="#"><img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/2.jpg"></a></td>
+                <td><a class="cotton__link" href="#">Cotton Shirt</a></td>
+                <td>
+                    <h1 class="price__heading">$63.00</h1>
+                </td>
+                <td><input type="number" placeholder="1"></td>
+                <td><a href="#"><img class="cross-image" src="images/icons8-multiply-48.png"></a></td>
+                <td>
+                    <h1 class="total__heading">$4539.00</h1>
+                </td>
+            </div>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <div class="girl__div">
+                <td><a href="#"><img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/35.jpg"></a></td>
+                <td><a class="cotton__link" href="#">Cotton Shirt</a></td>
+                <td>
+                    <h1 class="price__heading">$63.00</h1>
+                </td>
+                <td><input type="number" placeholder="1"></td>
+                <td><a href="#"><img class="cross-image" src="images/icons8-multiply-48.png"></a></td>
+                <td>
+                    <h1 class="total__heading">$4539.00</h1>
+                </td>
+            </div>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <div class="girl__div">
+                <td><a href="#"><img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/33.jpg"></a></td>
+                <td><a class="cotton__link" href="#">Cotton Shirt</a></td>
+                <td>
+                    <h1 class="price__heading">$63.00</h1>
+                </td>
+                <td><input type="number" placeholder="1"></td>
+                <td><a href="#"><img class="cross-image" src="images/icons8-multiply-48.png"></a></td>
+                <td>
+                    <h1 class="total__heading">$4539.00</h1>
+                </td>
+            </div>
+        </tr>
+    </tbody>
+    </thead>
+    <div class="total-price__div">
+        <h2 class="total-price__heading">Total Price :</h2>
+        <h1 class="dollar">$6935.00</h1>
+    </div>
+    <div class="button__div">
+        <a href="#"><button class="shopping-button">CONTINUE SHOPPING</button></a>
+        <a href=""><button class="shopping-button">CHECK OUT</button></a>
+    </div>
+    <!-- section 1 code ends -->
 </body>
+
 </html>
