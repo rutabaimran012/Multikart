@@ -17,6 +17,12 @@ nav{
     font-weight: bold;
     margin-top: 4px;
 }
+.cart__heading-two{
+    font-size: 14px;
+    color: #2c2c2c;
+    font-weight: bold;
+    margin-top: 4px;
+}
 .countdown__heading{
     color: #ff4c3b;
     font-size: 14px;
@@ -159,4 +165,101 @@ input{
 .checkout__button:hover{
     color: #222;
     background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .cart__heading{
+        width: 108%;
+        padding: 0;
+    }
+    nav{
+        width: 168%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .nav__div{
+        display: flex;
+        flex-direction: row;
+    }
+    .countdown__heading{
+        width: 3%;
+        padding: 0;
+    }
+    .cart__heading-two{
+        width: 100%;
+    }
+    .header{
+        border-bottom: 1px solid #ced4da;
+    }
+    .girl-div-2{
+        display: flex;
+    }
+    .total-price__div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .total-price__heading{
+        width: 100%;
+    }
 }
