@@ -243,31 +243,29 @@ input{
 
 @media screen and (max-width:767px){
     .cart__heading{
-        width: 108%;
-        padding: 0;
+        width: 183%;
+        font-size: 25px;
     }
-    nav{
-        width: 168%;
+    section{
+        width: 338%;
         display: flex;
         flex-direction: column;
         padding: 20px;
+        margin-left: -31px;
     }
     .nav__div{
         display: flex;
         flex-direction: row;
     }
     .countdown__heading{
-        width: 3%;
-        padding: 0;
+        font-size: 30px;
+        width: 130%;
+        margin-bottom: 5px;
     }
     .cart__heading-two{
         width: 100%;
-    }
-    .header{
-        border-bottom: 1px solid #ced4da;
-    }
-    .girl-div-2{
-        display: flex;
+        font-size: 28px;
+        margin-left: -24px;
     }
     .total-price__div{
         display: flex;
@@ -275,5 +273,70 @@ input{
     }
     .total-price__heading{
         width: 100%;
+    }
+    .checkout__button{
+        font-size: 24px;
+        padding: 10px 19px;
+        margin-left: -22px;
+        color: #fff;
+        background-color: #ff4c3b;
+        border: 1px solid #ff4c3b;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .row__heading__one{
+        font-weight: 900;
+    color: #222;
+    font-size: 33px;
+    padding: 0 12px 29px 12px;
+    margin: 0 18rem 0 4rem;
+    }
+    .row-top-heading{
+        width: 41rem;
+    }
+    .row__heading__two{
+        font-size: 29px;
+        padding: 0 12px 12px 12px;
+        margin-left: -94px;
+        margin-right: 288px;
+    }
+    .table__second__column{
+        display: flex;
+        flex-direction: column;
+    }
+    .cotton__link{
+        margin: -11rem 23rem 6rem 23rem;
+        font-size: 31px;
+        width: 100rem;
+    }
+    img{
+        width: 162%;
+        height: 102%;
+        padding: 14px;
+    }
+    .price__heading{
+        margin: -5rem 25rem 6rem 25rem;
+        font-size: 31px;
+        width: 100rem;
+    }
+    input{
+        margin: -10rem -19rem 8rem 15rem;
+        font-size: 31px;
+        width: 1rem;
+        padding: 22px 33px;
+    }
+    .cross-image{
+        margin: -12rem 7rem 9rem 34rem;
+    }
+    .total__heading{
+        margin: -10rem 22rem 1rem 44rem;
+    }
+    .total-price__heading{
+        font-size: 30px;
+        margin-left: 25rem;
+        margin-right: 2rem;
+    }
+    .dollar{
+        font-size: 46px;
     }
 }
