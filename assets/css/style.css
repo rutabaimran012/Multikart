@@ -2,13 +2,13 @@
     margin: 0%;
     padding: 0%;
 }
-nav{
-    padding: 22px;
+section{
+    padding: 15px;
     background-color: #F8F8F8;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 41px 0 20px 0;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 .cart__heading{
@@ -32,7 +32,7 @@ nav{
 body{
     margin: 0 104px;
     font-family: lato sans-serif;
-    padding: 70px 0;
+    padding: 33px 0;
 }
 .checkout__button{
     font-size: 14px;
@@ -44,17 +44,14 @@ body{
     font-weight: 600;
     cursor: pointer;
 }
-.header__heading{
+.row__heading__one{
     font-weight: 900;
     color: #222;
-    text-transform: uppercase;
     font-size: 14px;
-    border-top: 0;
-    text-align: center;
     padding: 0 0.75rem 0.75rem 0.75rem;
     margin: 0 18px 0 54px;
 }
-.header__heading-two{
+.row__heading__two{
     font-weight: 900;
     color: #222;
     text-transform: uppercase;
@@ -68,16 +65,16 @@ img{
     width: 66px;
     height: 90px;
     padding: 8px;
-    margin-left: 61px;
 }
-.header{
+.row-top-heading{
     display: flex;
     padding: 0 12px 0 12px;
     border-bottom: 1px solid #ced4da;
 }
-.girl__div{
+.table__second__column{
     display: flex;
-    border-bottom: 1px solid #ced4da;
+    border-bottom: 1px solid #d7dbdf;
+    padding: 0 61px;
 }
 .cotton__link{
     color: #777;
@@ -147,7 +144,6 @@ input{
 }
 .button__div{
     display: flex;
-    justify-content: space-between;
     padding-top: 35px;
 }
 .shopping-button{
@@ -157,14 +153,32 @@ input{
     border: 2px solid #ff4c3b;
     background-color: #ff4c3b;
     cursor: pointer;
+    margin-left: 25px;
+}
+.checkout-button-two{
+    padding: 13px 29px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    border: 2px solid #ff4c3b;
+    background-color: #ff4c3b;
+    cursor: pointer;
+    margin-left: 46rem;
 }
 .shopping-button:hover{
+    color: #222;
+    background-color: #fff;
+}
+.checkout-button-two:hover{
     color: #222;
     background-color: #fff;
 }
 .checkout__button:hover{
     color: #222;
     background-color: #fff;
+}
+.section-one-div{
+    display: flex;
+    align-items: center;
 }
 
 
